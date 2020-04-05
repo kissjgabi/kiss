@@ -1,0 +1,52 @@
+---
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<link rel="shortcut icon" type="image/ico" href="favicon.ico">
+    <title>Step by step 3</title>
+    <style>
+		p { text-align=justify;}
+        .new {
+                background-color: yellow; color: navy;
+        }
+    </style>
+  <body>
+    <h1>Liquid and Front matter</h1>
+
+	<p>
+Controll please <a href="https://jekyllrb.com/docs/step-by-step/02-liquid/"> Liquid </a> on the jekyllrb.com.  
+    </p>
+    <p>
+Insert in the <span>&nbsp;<code>index.html</code>&nbsp;</span> the yellow lines: 
+    </p>
+
+    <pre><code>
+<span class="new">---
+title: Home
+---</span>
+&lt;!doctype html>
+&lt;html>
+  &lt;head>
+    &lt;meta charset="utf-8">
+    &lt;title><span class="new">{<span>{ page.title }</span>}</span>&lt;/title>
+  &lt;/head>
+  &lt;body>
+    &lt;h1><span class="new">{<span>{ "k.i.s.s." | capitalize }</span>}</span>&lt;/h1>
+	&lt;p>
+	  Keep it simple stupid.
+	&lt;/p>
+  &lt;/body>
+&lt;/html>
+    </code></pre>
+
+	<p>
+It gives the following result:
+    </p>
+<div style="text-align:center"><img src="assets/images/index.jpg" /></div>
+
+  </body>
+</html>
+
+

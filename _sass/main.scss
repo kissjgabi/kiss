@@ -1,0 +1,20 @@
+@import "minima";
+
+
+header>h1:after,
+main:after {
+  content: " {";
+  font-size: 36px;
+}
+
+main:before,
+footer:after {
+  content: "} ";
+  font-size: 36px;
+}
+
+.current {
+  color: green;
+}
+
+

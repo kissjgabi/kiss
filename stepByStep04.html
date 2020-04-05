@@ -1,0 +1,68 @@
+---
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<link rel="shortcut icon" type="image/ico" href="favicon.ico">
+    <title>Step by step</title>
+    <style>
+		p { text-align=justify;}
+        .new {
+                background-color: yellow; color: navy;
+        }
+    </style>
+  <body>
+    <h1>Layouts</h1>
+
+	<p>
+Layouts are templates that wrap around your content. They live in a directory called <span>&nbsp;<code>_layouts</code>&nbsp;</span> in the root.<br />
+Create your first layout at <span>&nbsp;<code> _layouts/default.html</code>&nbsp;</span> with the following content:
+    </p>
+    <pre><code>
+        <span class="new">---</span>
+        <span class="new">layout: default</span>
+        <span class="new">---</span>
+        &lt;!doctype html>
+        &lt;html>
+          &lt;head>
+            &lt;meta charset="utf-8">
+            &lt;title>{<span>{ page.title }</span>}&lt;/title>
+          &lt;/head>
+          &lt;body>
+            <span class="new">{<span>{ content }</span>}</span>
+          &lt;/body>
+        &lt;/html>
+    </code></pre>
+
+    <p>
+To have <span>&nbsp;<code>index.html</code>&nbsp;</span> use this layout, you can set a <span>&nbsp;<code>layout</code>&nbsp;</span> variable in front matter. The layout wraps around the content of the page so all you need in <span>&nbsp;<code>index.html</code>&nbsp;</span> is:
+    </p>
+    <pre><code>
+        ---
+        layout: mydefault
+        title: Home
+        ---
+        &lt;h1><span class="new">{<span>{ "k.i.s.s." | capitalize }</span>}</span>&lt;/h1>
+	    &lt;p>
+	      Keep it simple stupid.
+	    &lt;/p>
+    </code></pre>
+
+    <p>
+We have a reusable code yet. We are able to create a new <span>&nbsp;<code>about</code>&nbsp;</span> file in the root directory with a few lines. The <span>&nbsp;<code>about.md</code>&nbsp;</span>'s code is:
+    </p>
+    <pre><code>
+        ---
+        layout: mydefault
+        title: About
+        ---
+        # About page  
+
+        This page tells you a little bit about me. They have a short text.
+    </code></pre>
+
+  </body>
+</html>
+
+
