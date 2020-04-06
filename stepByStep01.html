@@ -9,8 +9,36 @@ title: start
     </a>
 is very useful.
     </p>
+<hr /><br />
     <p>
 The essence of the tutorial is described here 
     <a href="stepByStep02.html">in the following</a>.
 	</p>
+
+<br /><hr />
+
+<h1>FINALE</h1>
+
+	<p> 
+It’s good practice to have a <a>Gemfile</a> for your site. This ensures the version of Jekyll and other gems remains consistent across different environments.<br />
+
+Create <span>&nbsp;<code>Gemfile</code>&nbsp;</span> in the root with the following lines:
+    </p>
+    <pre><code>
+    source 'https://rubygems.org'
+
+    gem 'jekyll'
+
+    bundle install
+    </code></pre>
+
+    <p>
+The <span>&nbsp;<code>bundle install</code>&nbsp;</span> installs the gems and creates <span>&nbsp;<code>Gemfile.lock</code>&nbsp;</span> which locks the current gem versions for a future <span>&nbsp;<code>bundle install</code>&nbsp;</span>. If you ever want to update your gem versions you can run <span>&nbsp;<code>bundle update</code>&nbsp;</span>.
+    </p>
+	<p> 
+When using a <span>&nbsp;<code>Gemfile</code>&nbsp;</span>, you’ll run commands like <span>&nbsp;<code>jekyll serve</code>&nbsp;</span> with <span>&nbsp;<code>bundle exec</code>&nbsp;</span>  prefixed. So the full command is:
+    </p>
+    <pre><code>
+    bundle exec jekyll serve
+    </code></pre>
 
