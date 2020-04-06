@@ -1,36 +1,27 @@
 ---
+layout: sbsdefault
+title: liquid
 ---
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-	<link rel="shortcut icon" type="image/ico" href="favicon.ico">
-    <title>Step by step 3</title>
-    <style>
-		p { text-align=justify;}
-        .new {
-                background-color: yellow; color: navy;
-        }
-    </style>
-  <body>
-    <h1>Liquid and Front matter</h1>
 
 	<p>
-Controll please <a href="https://jekyllrb.com/docs/step-by-step/02-liquid/"> Liquid </a> on the jekyllrb.com.  
+Please refere 
+<a href="https://jekyllrb.com/docs/step-by-step/02-liquid/"> Liquid </a> and 
+<a href="https://jekyllrb.com/docs/step-by-step/03-front-matter/"> Front matter </a>
+(jekyllrb.com).  
     </p>
     <p>
 Insert in the <span>&nbsp;<code>index.html</code>&nbsp;</span> the yellow lines: 
     </p>
 
     <pre><code>
-<span class="new">---
-title: Home
----</span>
+<mark>--- 
+ title: Home 
+ ---</mark>
 &lt;!doctype html>
 &lt;html>
   &lt;head>
     &lt;meta charset="utf-8">
-    &lt;title><span class="new">{<span>{ page.title }</span>}</span>&lt;/title>
+    &lt;title><mark>{<span>{ page.title }</span>}</mark>&lt;/title>
   &lt;/head>
   &lt;body>
     &lt;h1><span class="new">{<span>{ "k.i.s.s." | capitalize }</span>}</span>&lt;/h1>
@@ -45,8 +36,4 @@ title: Home
 It gives the following result:
     </p>
 <div style="text-align:center"><img src="assets/images/index.jpg" /></div>
-
-  </body>
-</html>
-
 

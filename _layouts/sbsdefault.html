@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <style>
+		p { text-align=justify;}
+        mark {
+                font-weight: bold; color: navy;
+        }
+        mark::before, mark::after {
+                content: " ";
+        }
+    </style>
+  </head>
+  <body>
+    <h1>{{ page.title | upcase }}</h1>
+
+    {{ content }}
+  </body>
+</html>
+
