@@ -8,17 +8,17 @@ Layouts are templates that wrap around your content. They live in a directory ca
 Create your first layout at <span>&nbsp;<code> _layouts/default.html</code>&nbsp;</span> with the following content:
     </p>
     <pre><code>
-        <span class="new">---</span>
-        <span class="new">layout: default</span>
-        <span class="new">---</span>
+        <mark>---</mark>
+        <mark>layout: default</mark>
+        <mark class="new">---</mark>
         &lt;!doctype html>
         &lt;html>
           &lt;head>
             &lt;meta charset="utf-8">
-            &lt;title>{<span>{ page.title }</span>}&lt;/title>
+            &lt;title>{<c>{ page.title }</c>}&lt;/title>
           &lt;/head>
           &lt;body>
-            <span class="new">{<span>{ content }</span>}</span>
+            <mark>{<c>{ content }</c>}</mark>
           &lt;/body>
         &lt;/html>
     </code></pre>
@@ -31,7 +31,7 @@ To have <span>&nbsp;<code>index.html</code>&nbsp;</span> use this layout, you ca
         layout: mydefault
         title: Home
         ---
-        &lt;h1><span class="new">{<span>{ "k.i.s.s." | capitalize }</span>}</span>&lt;/h1>
+        &lt;h1><mark>{<c>{ "k.i.s.s." | capitalize }</c>}</mark>&lt;/h1>
 	    &lt;p>
 	      Keep it simple stupid.
 	    &lt;/p>
