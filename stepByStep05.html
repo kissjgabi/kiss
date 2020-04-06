@@ -37,19 +37,26 @@ Create a file for the navigation at <span>&nbsp;<code>_includes/mynavigation.htm
 Use the include tag to add the navigation to <span>&nbsp;<code>_layouts/mydefault.html</code>&nbsp;</span>:
     </p>
     <pre><code>
-        ---</mark>
+        ---
         layout: default
-        ---</mark>
-        &lt;!doctype html>
-        &lt;html>
-          &lt;head>
-            &lt;meta charset="utf-8">
-            &lt;title>{<c>{ page.title }</c>}&lt;/title>
-          &lt;/head>
-          &lt;body>
+        ---
+        <del>&lt;!doctype html></del>
+        <del>&lt;html></del>
+          <del>&lt;head></del>
+            <del>&lt;meta charset="utf-8"></del>
+            <del>&lt;title>{<c>{ page.title }</c>}&lt;/title></del>
+          <del>&lt;/head></del>
+          <del>&lt;body></del>
             <mark>{<c>% include navigation.html %</c>}</mark>
             {<c>{ content }</c>}
-          &lt;/body>
-        &lt;/html>
+          <del>&lt;/body></del>
+        <del>&lt;/html></del>
+
+        K.i.s.s. & write:
+        ---
+        layout: default
+        ---
+        <mark>{<c>% include navigation.html %</c>}</mark>
+        {<c>{ content }</c>}
     </code></pre>
 

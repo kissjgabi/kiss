@@ -1,0 +1,19 @@
+@import "minima";
+
+.current {
+    color: red !important;
+    background-color: lightgray;
+}
+
+p { text-align: justify;}
+mark {
+    font-weight: bold; color: navy;
+}
+
+mark::before, mark::after {
+    content: " ";
+}
+
+del {
+    background-color: lightgray;
+}

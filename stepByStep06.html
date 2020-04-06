@@ -3,30 +3,13 @@ layout: sbsdefault
 title: assets
 ---
 
-	<p>
-The <span>&nbsp;<code>include</code>&nbsp;</span> tag allows you to include content from another file stored in an <span>&nbsp;<code>_includes</code>&nbsp;</span> folder. Includes are useful for having a single source for source code that repeats around the site or for improving the readability.<br />
-Navigation source code can get complex so sometimes it’s nice to move it into an include.
-    </p>
-    <p>
-Jekyll supports loading data from YAML, JSON, and CSV files located in a <span>&nbsp;<code>_data</code>&nbsp;</span> directory. Data files are a great way to separate content from source code to make the site easier to maintain.<br />
-Create a data file for the navigation at <span>&nbsp;<code>_data/mynavigation.yml</code>&nbsp;</span> with the following:
-    </p>
-    <pre><code>
-        - name: Home
-          link: /
-        - name: About
-          link: /about.html
-    </code></pre>
-
-    <p>
-Jekyll makes this data file available to you at <span>&nbsp;<code>site.data.navigation</code>&nbsp;</span>. Instead of outputting each link in <span>&nbsp;<code>_includes/mynavigation.html</code>&nbsp;</span>, you can iterate over the data file instead.<br />
-Create a file for the navigation at <span>&nbsp;<code>_includes/mynavigation.html</code>&nbsp;</span> with the following content:
+Inlining the styles used in <span>&nbsp;<code>_includes/mynavigation.html</code>&nbsp;</span> is not a best practice, let’s style the current page with a class instead.<br />
     </p>
     <pre><code>
 &lt;nav> ¤
   {<c>% for item in site.data.mynavigation </c>%}
     &lt;a href="{<c>{s item.link | relative_url }</c>}" 
-        {<c>% if page.url == item.link </c>%}style="color: red;"{<c>% endif </c>%}>
+        {<c>% if page.url == item.link </c>%}<mark>class="current"</mark>{<c>% endif </c>%}>
       {<c>{ item.name }</c>}
     &lt;/a> ¤
   {<c>% endfor </c>%}
@@ -34,22 +17,27 @@ Create a file for the navigation at <span>&nbsp;<code>_includes/mynavigation.htm
     </code></pre>
 
     <p>
-Use the include tag to add the navigation to <span>&nbsp;<code>_layouts/mydefault.html</code>&nbsp;</span>:
+First create a Sass file at <span>&nbsp;<code>assets/main.scss</code>&nbsp;</span> with the following content:
     </p>
     <pre><code>
-        ---</mark>
-        layout: default
-        ---</mark>
-        &lt;!doctype html>
-        &lt;html>
-          &lt;head>
-            &lt;meta charset="utf-8">
-            &lt;title>{<c>{ page.title }</c>}&lt;/title>
-          &lt;/head>
-          &lt;body>
-            <mark>{<c>% include navigation.html %</c>}</mark>
-            {<c>{ content }</c>}
-          &lt;/body>
-        &lt;/html>
+        ---
+        ---
+        @import "mymain";
     </code></pre>
+    <p>
+It overrides Minima's main.scss. The <span>&nbsp;<code>@import "mymain"</code>&nbsp;</span> tells Sass to look for a file called <span>&nbsp;<code>mymain.scss</code>&nbsp;</span> in the sass directory (<span>&nbsp;<code>_sass/</code>&nbsp;</span>).<br />
+Create a Sass file at <span>&nbsp;<code>_sass/main.scss</code>&nbsp;</span> with the following content:
+    </p>
+    <pre><code>
+        @import "minima";
+
+        .current {
+            color: red !important;
+            background-color: lightgray;
+        }
+    </code></pre>
+    <p>
+Minima's style sheet is still overridden, and the result is displayed in browser.
+    </p>
+
 
