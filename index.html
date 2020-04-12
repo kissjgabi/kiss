@@ -2,9 +2,45 @@
 layout: mydefault
 title: Home
 ---
-    <h1>{{ "k.i.s.s." | capitalize }}</h1>
-	<p>
-		Keep it stupid simple.
-	</p>
+
+    <h2>New entries</h2>
+    <p> Look for our latest articles on our 
+        <a href="{{ '/blog.html' | relative_url }}">
+            blog
+        </a>.
+    </p>
+
+    <h2>Search by</h2>
+<ul>
+    <li>
+        <a href="{{ '/categories.html' | relative_url }}">
+            categories
+        </a>.
+    </li>
+    <li>
+        <a href="{{ '/tags.html' | relative_url }}">
+            tags
+        </a>
+    </li>
+</ul>
+
+    <h2>Privacy policy</h2>
+    <p>
+        Our statement of ownership and authorship:
+            <a href="{{ '/impressum.html' | relative_url }}">
+                Impressum
+            </a>, 
+            <a href="https://kissjgabi.github.io/gdpr/">
+                GDPR
+            </a>
+    </p>
+
+    <h2>Links</h2>
+    <p>
+        Recommended 
+            <a href="https://kissjgabi.github.io/b6school/backdoor.html" target="_blank">
+                links
+            </a>.
+    </p>
 
 

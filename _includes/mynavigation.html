@@ -1,9 +1,0 @@
-<nav> ¤
-  {% for item in site.data.mynavigation %}
-    <a href="{{ item.link | relative_url }}"
-            {% if page.url == item.link %}class="current"{% endif %}>
-      {{ item.name }}
-    </a> ¤
-  {% endfor %}
-</nav>
-
