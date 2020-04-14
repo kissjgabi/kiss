@@ -1,4 +1,5 @@
 ---
 tagname: web
+title: Webes megoldások
 ---
-web
+html css javascript php

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: mydefault
 ---
     <h1>{{ page.name }}</h1>
     <h2>{{ page.position }}</h2>
@@ -11,6 +11,8 @@ layout: default
       {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
       {% for post in filtered_posts %}
         <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+      {% else %}
+        <p>The collection is empty.</p>
       {% endfor %}
     </ul>
 

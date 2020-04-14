@@ -5,6 +5,7 @@ category: programming
 title: "Welcom to Jekyll"
 meta: "jekyll pages"
 tag: web
+image: no_image.jpg
 sitemap:
     lastmod: 2020-04-12
     priority: 0.75

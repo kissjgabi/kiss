@@ -7,6 +7,10 @@ title: Blog
 {% for post in paginator.posts %}
     <li class="b8t_listline">
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      {% if post.image %}
+            <img class="b8t_cell" src="{{site.baseurl}}/assets/images/th_{{ post.image }}"
+             alt="{{ post.title }}" title="{{ post.title }}" /> 
+      {% endif %}
       {% if post.meta %}<span class="b8t_cell"> {{ post.meta }} </span>{% endif %}
       {% if post.category %}<span class="b8t_cell"> {{ post.category }} </span>{% endif %}
       {% if post.tag %}<span class="b8t_cell"> {{ post.tag }} </span>{% endif %}
@@ -26,7 +30,7 @@ title: Blog
 
   {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
-      <span class="webjeda">{{ page }}</span>
+      <span>{{ page }}</span>
     {% elsif page == 1 %}
       <a href= {{ "/blog/" | relative_url }} >{{ page }}</a>
     {% else %}

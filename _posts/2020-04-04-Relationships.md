@@ -4,6 +4,7 @@ author: emi
 category: lifestyle
 title: "Relationships"
 tag: harmony
+image: no_image.jpg
 sitemap:
     lastmod: 2020-04-12
     priority: 0.25

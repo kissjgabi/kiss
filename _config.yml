@@ -77,7 +77,13 @@ collections:
   tags:
     output: true
 
-  electroledges:
+  mathematical_constants:
+    output: true
+
+  physical_constants:
+    output: true
+
+  periodic_table_elements:
     output: true
 
 defaults:
@@ -98,9 +104,19 @@ defaults:
       layout: "tag"
   - scope:
       path: ""
-      type: "electroledges"
+      type: "mathematical_constants"
     values:
-      layout: "electroledge"
+      layout: "mathematical_constant"
+  - scope:
+      path: ""
+      type: "physical_constants"
+    values:
+      layout: "physical_constant"
+  - scope:
+      path: ""
+      type: "periodic_table_elements"
+    values:
+      layout: "periodic_table_element"
   - scope:
       path: ""
       type: "posts"

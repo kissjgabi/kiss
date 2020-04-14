@@ -5,36 +5,52 @@ title: "Hány vízmolekula van az 1 mm átmérőjű gömbben?"
 meta: "víz molekulák számának számítása"
 category: facts
 tag: easy_counted
+image: wather_drop.jpg
 sitemap:
     lastmod: 2020-04-12
     priority: 0.75
     changefreq: 'none'
     exclude: 'no'
 ---  
+## Ismerjük az egy mólnyi anyagban lévő molekulák számát 
 
 >Az Avogadro féle szám (1 mol anyagban található molekulák száma):  
 
-6,022x10<sup>23</sup>&nbsp;molekula/mol
+N<sub>A</sub> = 6,022x10<sup>23</sup>&nbsp;mol<sup>-1</sup>
 
->A víz sűrűsége (4 °C-on = 277,15 °K):  
+## Ismert a víz sűrűsége
 
-1,00&nbsp;g/ml
+>A víz sűrűsége (4 °C-on = 277,15 K):  
 
->A víz 1 mol mennyiségének tömege:  
+ρ<sub>víz</sub> = 1,00&nbsp;g/ml
 
-H<sub>2</sub>O = 
-2×<b>m</b><sub>hidrogén</sub> + 1×<b>m</b><sub>oxigén</sub> = 
-2×1,008&nbsp;g + 15,999&nbsp;g = 18,15&nbsp;gramm  
+## Ismert a hidrogén és az oxigén mólsúlya
+### <b>m</b><sub>hidrogén</sub> = 1,008&nbsp;g
+### <b>m</b><sub>oxigén</sub> = 15,999&nbsp;g
+### Ezekből számítható a víz&nbsp;(H<sub>2</sub>O) mólsúlya: <b>m</b><sub>víz</sub>
+
+>A víz 1&nbsp;mólnyi mennyiségének tömege:  
+
+<b>m</b><sub>víz</sub> = 2×<b>m</b><sub>hidrogén</sub> + 1×<b>m</b><sub>oxigén</sub>  
+<b>m</b><sub>víz</sub> = 2×1,008&nbsp;g + 15,999&nbsp;g = 18,15&nbsp;gramm  
+
+## Kiszámítjuk az 1&nbsp;mm átmérőjű gömb alakú vízcsepp adatait
+### a térfogatát: V<sub>csepp</sub> = (4&nbsp;/&nbsp;3)&nbsp;×&nbsp;π&nbsp;×&nbsp;r<sub>csepp</sub>
+### a tömegét: m<sub>csepp</sub> = V<sub>csepp</sub>&nbsp;×&nbsp;ρ<sub>víz</sub>
+### és azt, hogy az hány mólnak felel meg: n<sub>csepp</sub> = m<sub>csepp</sub>&nbsp;/&nbsp;<b>m</b><sub>víz</sub>
 
 >Az 1 mm átmérőjű vízgömb:  
 
-(1,333333˙)×π×(0,0005)<sup>3</sup> = 5,23*10<sup>-10</sup>&nbsp;m<sup>3</sup> = 5,23×10<sup>-4</sup>&nbsp;ml, 
-aminek&nbsp;a&nbsp;tömege: 5,23×10<sup>-4</sup>&nbsp;g és 
-ez 5,23×10<sup>-4</sup>&nbsp;/&nbsp;18,15 = 2,88×10<sup>-5</sup>&nbsp;mol.  
+V<sub>csepp</sub> = (1,333333˙)×π×(0,0005)<sup>3</sup> = 5,23*10<sup>-10</sup>&nbsp;m<sup>3</sup> = 5,23×10<sup>-4</sup>&nbsp;ml  
+m<sub>csepp</sub> = 5,23×10<sup>-4</sup>&nbsp;g  
+n<sub>csepp</sub> = 5,23×10<sup>-4</sup>&nbsp;/&nbsp;18,15 = 2,88×10<sup>-5</sup>&nbsp;mol.  
+
+## Kiszámoljuk a cseppben lévő molekulák számát az n<sub>csepp</sub> arányszámmal:
+### N<sub>csepp</sub> = n<sub>csepp</sub>&nbsp;×&nbsp;N<sub>A</sub>
 
 >Molekulák az 1 mm átmérőjű gömbben  
 
-2,88×10<sup>-5</sup> × 6.022x10<sup>23</sup> = <b><u>1.736x10<sup>19</sup>&nbsp;db</u></b>  
+N<sub>csepp</sub> = 2,88×10<sup>-5</sup>&nbsp;×&nbsp;6.022x10<sup>23</sup> = <b><u>1.736x10<sup>19</sup>&nbsp;db</u></b>  
 
 ___
 ><u>A Pí megjelenítése:</u>  

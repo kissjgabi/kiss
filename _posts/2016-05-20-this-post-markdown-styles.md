@@ -5,6 +5,7 @@ category: programming
 title: "This post demonstrates markdown content styles"
 meta: "markdown styles"
 tag: jekyll
+image: no_image.jpg
 sitemap:
     lastmod: 2020-04-12
     priority: 0.75
