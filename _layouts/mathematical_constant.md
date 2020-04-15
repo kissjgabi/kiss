@@ -18,7 +18,7 @@ layout: mydefault
 </ul>
 
 <div  style="background-color: #{{ page.color }}; padding: 0 2px 0 5px;">
-<a class="pagination" style="float: right;" href=" {{ '/mathematical_constants.html' | relative_url }}" >Physical constans</a>
+<a class="pagination" style="float: right;" href=" {{ '/mathematical_constants.html' | relative_url }}" >Mathematical constans</a>
 
 <h1>{{ page.name }} ( {{ page.symbol }} )</h1>
 

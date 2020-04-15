@@ -8,7 +8,7 @@ title: Impressum
 </span></font></h2>
 
 <h2 style="text-align: center;">
-    new Scienction MAGazin
+    <i><sub><small>Hi there!</small> </sub></i>Keep it stupid simple!
 </h2>
 
 <p style="text-align: center;">	

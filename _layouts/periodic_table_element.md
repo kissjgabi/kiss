@@ -65,35 +65,35 @@ layout: mydefault
     <em>Standard Temperature ( 273.15{{ kelvin }} ) and Pressure ( 1 bar = 10<sup>5</sup> Pa )</em> 
     <li>
     Phase at STP:
-        {% if page.stp_phase == "gas" %}
+        {% if page.stp_phase == "gas" and page.atom_in_molecule > 1 %}
             ( {{ page.symbol }}<sub>{{ page.atom_in_molecule }}</sub> )
         {% endif %}
         {{ page.stp_phase }} 
     </li>
     <li>
     Density at STP:
-        {% if page.stp_phase == "gas" %}
+        {% if page.stp_phase == "gas" and page.atom_in_molecule > 1 %}
             ( {{ page.symbol }}<sub>{{ page.atom_in_molecule }}</sub> )
         {% endif %}
         {{ page.stp_density | append: density_unit }}
     </li>
     <li>
     Heat of fusion:
-        {% if page.stp_phase == "gas" %}
+        {% if page.stp_phase == "gas" and page.atom_in_molecule > 1 %}
             ( {{ page.symbol }}<sub>{{ page.atom_in_molecule }}</sub> )
         {% endif %}
         {{ page.heat_of_fusion }}{{ heat_unit }}
     </li>
     <li>
     Heat of vaporization:
-        {% if page.stp_phase == "gas" %}
+        {% if page.stp_phase == "gas" and page.atom_in_molecule > 1 %}
             ( {{ page.symbol }}<sub>{{ page.atom_in_molecule }}</sub> )
         {% endif %}
         {{ page.heat_of_vaporization }}{{ heat_unit }}
     </li>
     <li>
     Molar heat capacity:
-        {% if page.stp_phase == "gas" %}
+        {% if page.stp_phase == "gas" and page.atom_in_molecule > 1 %}
             ( {{ page.symbol }}<sub>{{ page.atom_in_molecule }}</sub> )
         {% endif %}
         {{ page.molar_heat_capacity }}{{ heat_capacity_unit }}
