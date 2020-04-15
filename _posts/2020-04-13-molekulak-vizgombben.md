@@ -1,8 +1,8 @@
 ---
 layout: post
 author: emi
-title: "Hány vízmolekula van egy 1 mm átmérőjű gömbben?"
-meta: "víz molekulák számának számítása"
+title: "Hány molekula van az 1 mm-es gömb alakú vízcseppben?"
+meta: "molekulák száma gömbben"
 category: facts
 tag: easy_counted
 image: wather_drop.jpg
