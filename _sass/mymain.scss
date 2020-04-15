@@ -69,3 +69,21 @@ del {
     opacity: 0.95;
     padding: 0.5em;
 }
+
+.b6-frontpage {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 96vw;
+    height: calc(100vh - 2.01em);
+    border-color: rgba(1,1,1,0.1);
+    border-style: ridge;
+    border-width: 1em 2vw;
+}	
+
+canvas {
+    margin: 0 auto;
+    background-color: transparent;
+}
+
