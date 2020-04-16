@@ -2,10 +2,12 @@
 layout: post
 author: ghost
 category: programming
-title: "Welcom to Jekyll"
-meta: "jekyll pages"
-tag: web
-image: no_image.jpg
+title: welcom to Jekyll
+meta: jekyll site-generator
+shortcontent: jekyll site-generator
+tag: [jekyll, web, computing]
+image:
+subtitle:
 sitemap:
     lastmod: 2020-04-12
     priority: 0.75

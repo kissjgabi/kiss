@@ -2,19 +2,18 @@
 layout: post
 author: guest
 category: programming
-title: "This post demonstrates markdown content styles"
-meta: "markdown styles"
-tag: jekyll
-image: no_image.jpg
+title: This post demonstrates markdown content styles
+meta: markdown styles jekyll
+shortcontent: markdown basic content styles
+tag: [jekyll, web, computing, markdown]
+image:
+subtitle:
 sitemap:
     lastmod: 2020-04-12
     priority: 0.75
     changefreq: 'none'
     exclude: 'no'
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
-
 ## Some great heading (h2)
 
 Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu.

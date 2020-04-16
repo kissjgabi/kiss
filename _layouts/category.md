@@ -25,7 +25,7 @@ layout: mydefault
   {% endfor %}
 </ul>
 
-    <h1>{{ page.modulname }}</h1>
+    <h1>{{ page.modulname | capitalize }}</h1>
 
     {{ content }}
 
@@ -34,7 +34,7 @@ layout: mydefault
     <ul>
       {% assign filtered_posts = site.posts | where: 'category', page.nickname %}
       {% for post in filtered_posts %}
-        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+        <li><a href="{{ post.url | relative_url }}">{{ post.title | capitalize }}</a></li>
       {% endfor %}
     </ul>      
 

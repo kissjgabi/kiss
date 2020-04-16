@@ -1,5 +1,5 @@
 ---
 tagname: web
-title: Web development
+title: web development
 ---
-html css javascript php
+web development basics

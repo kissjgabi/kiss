@@ -2,11 +2,17 @@
 <link rel="icon" type="image/x-icon" href={{ "favicon.ico" | relative_url }} />
 <link rel="shortcut icon" type="image/x-icon" href={{ "favicon.ico" | relative_url }} />
 
+{% if page.category == 'programming' %}
+    <script type="text/javascript" src="{{ "/assets/js/b8t_animation001.js" | relative_url }}"> </script>
+{% elsif page.category == 'electra' %}
+    <script type="text/javascript" src="{{ "/assets/js/b8t_animation002.js" | relative_url }}"> </script>
+{% elsif page.category == 'sciention' %}
+    <script type="text/javascript" src="{{ "/assets/js/b8t_animation003.js" | relative_url }}"> </script>
+{% elsif page.category == 'facts' %}
+    <script type="text/javascript" src="{{ "/assets/js/b8t_animation004.js" | relative_url }}"> </script>
+{% elsif page.category == 'lifestyle' %}
+    <script type="text/javascript" src="{{ "/assets/js/b8t_animation005.js" | relative_url }}"> </script>
+{% else %}
+    <script type="text/javascript" src="{{ "/assets/js/b8t_animation000.js" | relative_url }}"> </script>
+{% endif %}
 
-
-{% comment %}
-  Placeholder to allow defining custom head, in principle, you can add anything here, e.g. favicons:
-
-  1. Head over to https://realfavicongenerator.net/ to add your own favicons.
-  2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
-{% endcomment %}

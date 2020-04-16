@@ -2,9 +2,12 @@
 layout: post
 author: emi
 category: lifestyle
-title: "Relationships"
-tag: harmony
-image: no_image.jpg
+title: relationships
+meta: make it simply
+shortcontent: No matter what work you do, make it simply
+tag: [mentoring, coaching]
+image:
+subtitle:
 sitemap:
     lastmod: 2020-04-12
     priority: 0.25

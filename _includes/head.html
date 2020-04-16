@@ -1,15 +1,31 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content=" width=device-width, 
+                                    height=device-height, 
+                                    initial-scale=1.0, 
+                                    minimum-scale=1.0, 
+                                    maximum-scale=1.0, 
+                                    user-scalable=no, 
+		                            minimal-ui" />
 
 
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+    <meta name="author" content="Kiss J. Gábor" />
+    <meta name="designer" content="Kiss J. Gábor" >
+    <meta name="copyright" content="© 2018-2020, Einstein Circle" />
+    <meta name="keywords" content="{{ site.description | escape }}" />
+    <meta name="description" content="Stuff, you should know about {{ site.description | escape }}" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow"/>
+    <meta name="MSNBOT" content="index, follow" /> 
+    <meta name="revisit" content="3 day" />
 
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    <meta name="format-detection" content="telephone=no">
 
-  {%- endif -%}
-
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">		
+    <meta name="apple-mobile-web-app-title" content="Basics">
+    <meta name="application-name" content="Basics" />
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   {%- include custom-head.html -%}
-  
 </head>

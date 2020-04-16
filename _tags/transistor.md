@@ -1,5 +1,0 @@
----
-tagname: transistor
----
-transistor
-

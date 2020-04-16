@@ -34,14 +34,19 @@ title: Blog
 <ul class="b8t_list">
 {% for post in paginator.posts %}
     <li class="b8t_listline">
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <a href="{{ post.url | relative_url }}">
       {% if post.image %}
             <img class="b8t_cell" src="{{site.baseurl}}/assets/images/th_{{ post.image }}"
              alt="{{ post.title }}" title="{{ post.title }}" /> 
+      {% else %}
+            <img class="b8t_cell" src="{{site.baseurl}}/assets/images/th_no_image.jpg"
+             alt="{{ post.title }}" title="{{ post.title }}" /> 
       {% endif %}
-      {% if post.meta %}<span class="b8t_cell"> {{ post.meta }} </span>{% endif %}
+      <big>{{ post.title }}</big></a><br />
+      <p style="text-align: right; font-size: small;">
       {% if post.category %}<span class="b8t_cell"> {{ post.category }} </span>{% endif %}
       {% if post.tag %}<span class="b8t_cell"> {{ post.tag }} </span>{% endif %}
+      </p>
     </li>
 {% endfor %}
 </ul>

@@ -1,4 +1,0 @@
----
-tagname: capacitor
----
-capacitor

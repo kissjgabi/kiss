@@ -33,7 +33,7 @@ layout: mydefault
     <ul>
       {% assign filtered_posts = site.posts | where: 'tag', page.tagname %}
       {% for post in filtered_posts %}
-        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+        <li><a href="{{ post.url | relative_url }}">{{ post.title | capitalize }}</a></li>
       {% endfor %}
     </ul>
 

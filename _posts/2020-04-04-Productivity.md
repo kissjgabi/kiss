@@ -2,9 +2,12 @@
 layout: post
 author: emi
 category: lifestyle
-title: "Productivity"
-tag: harmony
-image: no_image.jpg
+title: productivity
+meta: make it simply
+shortcontent: better to make it simply
+tag: [mentoring, coaching]
+image:
+subtitle:
 sitemap:
     lastmod: 2020-04-12
     priority: 0.25

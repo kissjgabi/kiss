@@ -1,5 +1,0 @@
----
-tagname: resistor
----
-resistor
-

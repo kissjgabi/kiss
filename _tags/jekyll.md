@@ -1,6 +1,6 @@
 ---
 tagname: jekyll
-title: Jekyll
+title: jekyll site-generator
 ---
-experiments with the Jekyll site-generator
+basics of Jekyll
 
