@@ -4,7 +4,7 @@ author: emi
 category: facts
 title: Calculating the number of molecules in the air
 meta: number of molecules in the air
-shortcontent: 1 g of water has in n = 6,022 x 10<sup>23</sup> molecules
+shortcontent: 1 g of air has in n = 6,022 x 10<sup>23</sup> molecules
 tag: [physics, calculations, examples]
 image: horizon.jpg
 subtitle: above the clouds
@@ -20,7 +20,7 @@ sitemap:
 The atmosphere of Earth is the layer of gases, commonly known as air.
 To calculate the number of molecules in, assume the following:
 1. the air pressure is 1 atm
-2. the air temperature is 293,15 K
+2. the air temperature is 273,15 K
 3. the composition of the mixture:
     - 77,5106% nitrogen
     - 20,7939% oxygen
@@ -63,6 +63,50 @@ Table of molar masses with different water content:
 | sum            | 100     | 100     | 100     | 100     | 100     | 100     | 100     | 100     |
 | M<sub>air</sub>| 28,9648 | 28,9323 | 28,8889 | 28,8564 | 28,8022 | 28,7480 | 28,6396 | 28,4227 |
 
+## 3. The molar volume of air
+
+### a. The standard temperature and pressure (STP):
+
+>In <u>chemistry</u> changed the definition of standard temperature and pressure (STP) in 1982:  
+Until 1982, STP was defined as a temperature of 273.15 K (0 °C, 32 °F) and an absolute pressure of exactly 1 atm (101.325 kPa).  
+Since 1982 STP is defined as a temperature of 273.15 K (0 °C, 32 °F) and an absolute pressure of exactly 10<sup>5</sup> Pa (100 kPa, 1 bar).  
+
+### b. The normal temperature and pressure (NTP):
+
+>The USA's National Institute of Standards and Technology (NIST) uses NTP. It is defined as a temperature of 293.15 K (20 °C, 68 °F) and an absolute pressure of 101.325 kPa (1 atm, 14.696 psi).  
+
+### c. Avogadro's law
+
+>Applying Avogadro's law to a mole of gas:  
+V<sub>mole</sub>= R × T / P, where  
+R - the „gas constant” 8.3144626 J/(K⋅mol),  
+T - the Temperature 273.15 K and  
+P - the Pressure 101.325 kPa.  
+<big> the volume of one mole of gas:<u> 22,41 litres/mol </u></big>
+
+## Determine the number of molecules in
+
+### a.) 1 mole, i.e. 28,889 g, i.e. 22,41 litres of air
+
+>><u>&nbsp;n = 6,022 x 10<sup>23</sup> molecules&nbsp;</u>  
+
+        i.e. - id est
+
+### b.) 1 l, i.e. 1,2891 g, i.e. 1 dm<sup>3</sup> of air
+
+>><u>&nbsp;n = 6,022 x 10<sup>23</sup> / 22,41 = 2,687 x 10<sup>22</sup> molecules&nbsp;</u>  
+
+### c.) 1000 l <sup>3</sup>, i.e. 1,2891 kg, i.e. 1 m<sup>3</sup> of air
+
+>><u>&nbsp;n = 1000 x 2,687×10<sup>22</sup> = 2,687 x 10<sup>19</sup> molecules&nbsp;</u>  
+
+### d.) 1 g, i.e. 0,7757 l, i.e. 0,7757 dm<sup>3</sup> of air
+
+>><u>&nbsp;n = 6,022 x 10<sup>23</sup> / 28,889 = 2,085 x 10<sup>22</sup> molecules&nbsp;</u>  
+
+### d.) 1 kg, i.e. 775,7 l, i.e. 0,7757 m<sup>3</sup> of air
+
+>><u>&nbsp;n = 1000 x 2,085×10<sup>22</sup> = 2,085 x 10<sup>19</sup> molecules&nbsp;</u>  
 
         and so on...
 

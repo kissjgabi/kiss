@@ -46,18 +46,18 @@ The value used in calculations is:
 
 ## Determine the number of molecules in
 
-### a.) 1 mole i.e. 18,015 g = 18,015 ml of water
+### a.) 1 mole, i.e. 18,015 g, i.e. 18,015 ml of water
 >><u>&nbsp;n = 6,022 x 10<sup>23</sup> molecules&nbsp;</u>  
 
         i.e. - id est
 
-### b.) 1 g = 1 ml = 1 cm<sup>3</sup> of water
+### b.) 1 g, i.e. 1 ml, i.e. 1 cm<sup>3</sup> of water
 >><u>&nbsp;n = 6,022 x 10<sup>23</sup> / 18,015 = 3,343 x 10<sup>22</sup> molecules&nbsp;</u>  
 
-### c.) 1000 g = 1 l = 1 dm<sup>3</sup> of water
+### c.) 1000 g, i.e. 1 l, i.e. 1 dm<sup>3</sup> of water
 >><u>&nbsp;n = 1000 x 3,343<sup>22</sup> = 3,343 x 10<sup>25</sup> molecules&nbsp;</u>  
 
-### c.) 0,001 g = 0,001 ml = 1 mm<sup>3</sup> of water
+### d.) 0,001 g, i.e. 0,001 ml, i.e. 1 mm<sup>3</sup> of water
 >><u>&nbsp;n = 0,001 x 3,343<sup>22</sup> = 3,343 x 10<sup>19</sup> molecules&nbsp;</u>  
 
         and so on...
