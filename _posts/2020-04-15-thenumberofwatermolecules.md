@@ -9,9 +9,9 @@ tag: [physics, calculations, examples]
 image: wather_drop.jpg
 subtitle: drops in the water
 sitemap:
-    lastmod: 2020-04-12
+    lastmod: 2020-04-15
     priority: 0.75
-    changefreq: 'none'
+    changefreq: '1 month'
     exclude: 'no'
 ---
 

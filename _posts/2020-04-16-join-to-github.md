@@ -9,9 +9,9 @@ tag: [web, github, computing]
 image: login.jpg
 subtitle: login user - <b>the-user-you-are</b>.
 sitemap:
-    lastmod: 2020-04-12
+    lastmod: 2020-04-16
     priority: 0.75
-    changefreq: 'none'
+    changefreq: '1 month'
     exclude: 'no'
 ---
 GitHub Pages are public webpages.
