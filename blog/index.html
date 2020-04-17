@@ -42,7 +42,7 @@ title: Blog
             <img class="b8t_cell" src="{{site.baseurl}}/assets/images/th_no_image.jpg"
              alt="{{ post.title }}" title="{{ post.title }}" /> 
       {% endif %}
-      <big>{{ post.title }}</big></a><br />
+      <big>{{ post.title | capitalize }}</big></a><br />
       <p style="text-align: right; font-size: small;">
       {% if post.category %}<span class="b8t_cell"> {{ post.category }} </span>{% endif %}
       {% if post.tag %}<span class="b8t_cell"> {{ post.tag }} </span>{% endif %}

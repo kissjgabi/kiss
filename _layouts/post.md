@@ -17,7 +17,7 @@ layout: mydefault
     </p>
       {% if page.image %}
             <img class="b8t_cell" src="{{site.baseurl}}/assets/images/{{ page.image }}"
-             width="auto" height="auto" alt="{{ page.title }}" title="{{ page.title }}" /> 
+             width="100%" height="auto" alt="{{ page.title }}" title="{{ page.title }}" /> 
       {% endif %}
 
       {% if page.subtitle %}
