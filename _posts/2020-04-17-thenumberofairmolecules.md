@@ -98,7 +98,7 @@ P - the Pressure 101.325 kPa.
 
 ### c.) 1000 l <sup>3</sup>, i.e. 1,2891 kg, i.e. 1 m<sup>3</sup> of air
 
->><u>&nbsp;n = 1000 x 2,687×10<sup>22</sup> = 2,687 x 10<sup>19</sup> molecules&nbsp;</u>  
+>><u>&nbsp;n = 1000 x 2,687×10<sup>22</sup> = 2,687 x 10<sup>25</sup> molecules&nbsp;</u>  
 
 ### d.) 1 g, i.e. 0,7757 l, i.e. 0,7757 dm<sup>3</sup> of air
 
@@ -106,7 +106,7 @@ P - the Pressure 101.325 kPa.
 
 ### e.) 1 kg, i.e. 775,7 l, i.e. 0,7757 m<sup>3</sup> of air
 
->><u>&nbsp;n = 1000 x 2,085×10<sup>22</sup> = 2,085 x 10<sup>19</sup> molecules&nbsp;</u>  
+>><u>&nbsp;n = 1000 x 2,085×10<sup>22</sup> = 2,085 x 10<sup>25</sup> molecules&nbsp;</u>  
 
         and so on...
 
