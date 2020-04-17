@@ -104,7 +104,7 @@ P - the Pressure 101.325 kPa.
 
 >><u>&nbsp;n = 6,022 x 10<sup>23</sup> / 28,889 = 2,085 x 10<sup>22</sup> molecules&nbsp;</u>  
 
-### d.) 1 kg, i.e. 775,7 l, i.e. 0,7757 m<sup>3</sup> of air
+### e.) 1 kg, i.e. 775,7 l, i.e. 0,7757 m<sup>3</sup> of air
 
 >><u>&nbsp;n = 1000 x 2,085×10<sup>22</sup> = 2,085 x 10<sup>19</sup> molecules&nbsp;</u>  
 
