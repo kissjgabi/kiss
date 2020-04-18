@@ -70,6 +70,7 @@
         var bottom = b6canvas01.height;
         var color;
         var w = 10;
+        var n = 0;
         if (b6canvas01.width > 1024){
             w = (b6canvas01.width - 1004) / 2;        
         }
@@ -81,8 +82,15 @@
             canvasctx01.fillRect( b6canvas01.width - w, top, w, item[1] );
             canvasctx01.fillRect( 0, bottom, w, item[1] );
             canvasctx01.fillRect( b6canvas01.width - w, bottom, w, item[1] );
+             if (n < 8){
+                n++;
+            } else {
+                n = 0;
+                canvasctx01.fillRect( 0, top, b6canvas01.width, item[1] );
+                canvasctx01.fillRect( 0, bottom, b6canvas01.width, item[1] );
+            }
             top +=  item[1];
-        }
+       }
         b6animation_init();
     }
 

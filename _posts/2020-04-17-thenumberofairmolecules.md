@@ -4,7 +4,7 @@ author: emi
 category: facts
 title: Calculating the number of molecules in the air
 meta: number of molecules in the air
-shortcontent: 1 g of air has in n = 6,022 x 10<sup>23</sup> molecules
+shortcontent: 1 l of air has in n = 2,687 x 10<sup>22</sup> molecules
 tag: [physics, calculations, examples]
 image: horizon.jpg
 subtitle: above the clouds

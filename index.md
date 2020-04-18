@@ -31,7 +31,7 @@ title: Home
            Markdown
     </a>
     <a href="https://imagecompressor.com/" target="_blank">
-           Markdown
+           Image compressor
     </a>
 </div>
 
@@ -47,4 +47,16 @@ title: Home
 
 ---
 
+## Table
 
+|col 1| col 2| col 3|
+|:--- | :--: | ---: |
+|left |center| right|
+
+        source: |col 1| col 2| col 3|
+                |:--- | :--: | ---: |
+                |left |center| right|
+
+## π
+
+        3,1415926535 8979323846 2643383279 5028841971 6939937510
