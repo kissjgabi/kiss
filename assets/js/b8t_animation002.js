@@ -40,11 +40,11 @@
         }
 
         function o( radius ) {
-            return Math.round(Math.random() * radius / 4 ) - radius / 8;
+            return Math.round(Math.random() * radius / 2 ) - radius / 4;
         }
 
         function transparency() {
-            return Math.random() / 2;
+            return Math.random() / 20;
         }
 
         function color() {
@@ -52,7 +52,7 @@
         }
 
         function radius() {
-            return Math.random() * minLength * .1;
+            return Math.random() * minLength / 10;
         }
 
         var items = [];
@@ -63,7 +63,7 @@
 	        } else {
 	        minLength = b6canvas01.height;
 	        }
-	        var howManyCircles = minLength/40;
+	        var howManyCircles = minLength/20;
             for(var i=0; i<howManyCircles; i++) {
                 items[i] = [Math.floor(Math.random()*b6canvas01.width),
                             Math.floor(Math.random()*b6canvas01.height),
@@ -73,26 +73,36 @@
         }
 
         function b6canvasupdate() {
-            canvasctx01.clearRect(0, 0, b6canvas01.width, b6canvas01.height);
+            //canvasctx01.clearRect(0, 0, b6canvas01.width, b6canvas01.height);
 
             for(var i=0; i<items.length; i++) {
                 var item = items[i];
-	        
+	            if ( i % 3 == 0 ) {
+                    item[2] = 'rgba(255,255,255,0.15)';                
+                }
                 item[0] += o(item[3]);
 		        if (item[0] < item[3] ) {
-			        item[0] = item[3];
+			        item[0] = Math.floor(Math.random()*b6canvas01.width);
+                    item[2] = color();
+                    item[3] = radius();
 		        }
 		        if (b6canvas01.width - item[0] < item[3] ) {
-			        item[0] = b6canvas01.width - item[3];
-		        }		
+                    item[0] = Math.floor(Math.random()*b6canvas01.width);
+                    item[2] = color();
+                    item[3] = radius();
+                }
                 item[1] += o(item[3]);
 		        if (item[1] < item[3]) {
-			        item[1] = item[3];
+			        item[1] = Math.floor(Math.random()*b6canvas01.height);
+                    item[2] = color();
+                    item[3] = radius();
 		        }
 		        if (b6canvas01.height - item[1] < item[3] ) {
-			        item[1] = b6canvas01.height - item[3];
+			        item[1] = Math.floor(Math.random()*b6canvas01.height);
+                    item[2] = color();
+                    item[3] = radius();
 		        }
-
+                item[3]++;
                 canvasctx01.fillStyle = item[2];
                 canvasctx01.beginPath();
                 canvasctx01.arc(item[0],item[1],item[3], 0, Math.PI*2);
