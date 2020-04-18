@@ -11,9 +11,10 @@ shell_nr: 1
 shell_pos: [1]
 blocks: [s]
 electrons: [2]
-element_category: 'Noble gas'
+element_category: noble gas
 melting_point: 0.95
 boiling_point: 4.222
+sublimation_point:
 atom_in_molecule: 1
 stp_phase: gas
 stp_density: 0.1786
@@ -27,6 +28,12 @@ waals_r: 140
 crystal_structure: hexagonal close-packed
 speed_of_sound: 972
 condition_speed_of_sounds: 'gas, 27 °C'
+thermal_expansion:
 thermal_conductivity: 0.1513
 ---
-Helium is a colorless, odorless, tasteless, non-toxic, inert, monatomic gas, the first in the noble gas group in the periodic table.
+\|
+<a href="https://www.britannica.com/science/helium-chemical-element" target="_blank" >Encyclopedia Britannica</a>
+\|
+<a href="https://www.britannica.com/science/noble-gas" target="_blank" >Noble gases</a>
+\|
+
