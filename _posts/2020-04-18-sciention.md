@@ -1,20 +1,20 @@
 ---
 layout: post
 author: emi
-category: electra
-title: electra 
-meta: electra
-shortcontent: electra
-tag: [electronics]
-image: login.jpg
-subtitle: login user - <b>the-user-you-are</b>.
+category: sciention
+title: scientions basics
+meta: sciention
+shortcontent: sciention
+tag: [calculations]
+image:
+subtitle:
 sitemap:
     lastmod: 2020-04-19
     priority: 0.75
     changefreq: '1 month'
     exclude: 'no'
 ---
-# Electra
+# Scientions
 
 |col 1| col 2| col 3|
 |:--- | :--: | ---: |

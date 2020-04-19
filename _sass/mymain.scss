@@ -74,8 +74,22 @@ del {
     padding: 0.5em;
 }
 
-.b6-frontpage {
+.b6-filter {
     z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 96vw;
+    height: calc(100vh - 2.01em);
+    border-color: rgba(1,1,1,0.1);
+    border-style: ridge;
+    border-width: 1em 2vw;
+    background-color: #fff;
+    opacity: 0.70;
+}	
+
+.b6-frontpage {
+    z-index: -2;
     position: fixed;
     top: 0;
     left: 0;

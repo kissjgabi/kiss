@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<div id="filter" class="b6-filter">
+ 
+</div>
+
 <div id="frontpage" class="b6-frontpage">
 
 <!-- canvas -->

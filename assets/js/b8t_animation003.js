@@ -35,76 +35,74 @@
                 clearTimeout
         } )();
 
-        function r() {
-            return Math.floor(Math.random()*255);
+
+        function rot() {
+            var a = Math.random()*7;
+            return 4.5 - a;
         }
 
-        function o( radius ) {
-            return Math.round(Math.random() * radius / 4 ) - radius / 8;
+        function rx() {
+            var a = Math.floor(Math.random()*7);
+            return 3 - a;
         }
 
-        function transparency() {
-            return Math.random() / 2;
+        function ry() {
+            var a = Math.floor(Math.random()*4);
+            return 3 - a;
         }
 
-        function color() {
-            return 'rgba(' + r() + ',' + r() + ',' + r() + ',' + transparency() + ')';
-        }
-
-        function radius() {
-            return Math.random() * minLength * .1;
-        }
 
         var items = [];
+        var globalID, minLength;
+        var b6canvas01, canvasctx01, frontpageDiv;
 
         function b6canvasinit() {
-	        if (b6canvas01.width < b6canvas01.height ){
-	        minLength = b6canvas01.width;
-	        } else {
-	        minLength = b6canvas01.height;
-	        }
-	        var howManyCircles = minLength/40;
-            for(var i=0; i<howManyCircles; i++) {
-                items[i] = [Math.floor(Math.random()*b6canvas01.width),
-                            Math.floor(Math.random()*b6canvas01.height),
-                            color(),
-					        radius()];
+	        var howManySnowflakes = 40;
+            for(var i=0; i<howManySnowflakes; i++) {
+                ii = Math.floor(Math.random()*35) +1;
+                str = "00" + ii;
+                var str = str.substring(str.length - 2);
+                var img = new Image();
+                img.src = "/kiss/assets/images/snow" + str + ".png";
+                items[i] = [Math.floor(Math.random()*(b6canvas01.width-2*img.width)) + img.width/2,
+                            Math.floor(Math.random()*b6canvas01.height-img.height),
+                            rot()*5,
+                            img];
             }
         }
 
+        function finishDrawing(image,x,y,r){
+            canvasctx01.save();
+            canvasctx01.translate(x+image.width/2,y+image.height/2);
+            canvasctx01.rotate(r*Math.PI/180);
+            canvasctx01.drawImage(image,-image.width/2,-image.height/2);
+            canvasctx01.restore();
+        }
+
         function b6canvasupdate() {
-            canvasctx01.clearRect(0, 0, b6canvas01.width, b6canvas01.height);
+            canvasctx01.clearRect(0, 0, b6canvas01.width, b6canvas01.height)
 
             for(var i=0; i<items.length; i++) {
                 var item = items[i];
-	        
-                item[0] += o(item[3]);
-		        if (item[0] < item[3] ) {
-			        item[0] = item[3];
-		        }
-		        if (b6canvas01.width - item[0] < item[3] ) {
-			        item[0] = b6canvas01.width - item[3];
-		        }		
-                item[1] += o(item[3]);
-		        if (item[1] < item[3]) {
-			        item[1] = item[3];
-		        }
-		        if (b6canvas01.height - item[1] < item[3] ) {
-			        item[1] = b6canvas01.height - item[3];
-		        }
-
-                canvasctx01.fillStyle = item[2];
-                canvasctx01.beginPath();
-                canvasctx01.arc(item[0],item[1],item[3], 0, Math.PI*2);
-                canvasctx01.fill();
+                if (item[1] > b6canvas01.height){
+                    item[1] = -item[3].height;
+                    item[0] = Math.floor(Math.random()*(b6canvas01.width-2*item[3].width))+item[3].width/2;
+                    item[2] = rot()*5;
+                } else {
+                    item[0] += rx();
+                    item[1] += ry();
+                    item[2] += rot();
+                }                
+                finishDrawing(item[3],item[0],item[1],item[2]);
             }
         }
 
         function animate(){
-            globalID = requestAnimFrame(b6canvasupdate, 20);
+            globalID = requestAnimFrame(b6canvasupdate, 1000/60);
         }
 
         function b6animation_start(){
+	        control = document.getElementById('filter');
 	        frontpageDiv = document.getElementById('frontpage');
 	        b6canvas01 = document.getElementById('b6canvas01');
 	        canvasctx01 = b6canvas01.getContext('2d');
@@ -115,9 +113,7 @@
 		        cancelRequestAnimFrame (globalID);
 	        }
 	        b6canvasresize();
-	        globalID = setInterval(animate, 20);
+	        globalID = setInterval(animate, 1000/60);
         }
 
-        var globalID, minLength;
-        var b6canvas01, canvasctx01, frontpageDiv;
 
