@@ -43,3 +43,7 @@ The power dissipated by the resistor (P<sup>2</sup> = V<sup>2</sup> / R): `1,8<s
 
 The efficiency according to the layout (P<sub>LED</sub>/P<sub>sum</sub>): `0,432 / (0,432 + 0,108) = 0,80 = 80,0 %`.  
 
+## Links:
+
+[Simple LED Circuits](https://www.electronicshub.org/simple-led-circuits/)
+[LED lighting from 230V mains](http://skory.gylcomp.hu/kapcs/led230.html)
