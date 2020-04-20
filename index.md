@@ -47,6 +47,19 @@ title: Home
 
 ---
 
+## Ruby
+
+<div class="pagination b8t_m0">
+    <a href="https://www.ruby-lang.org/en/documentation/" target="_blank">
+           Documentation Ruby
+    </a>
+    <a href="https://www.tutorialspoint.com/ruby/index.htm" target="_blank">
+           Ruby Tutorial
+    </a>
+</div>
+
+---
+
 ## Table
 
 |col 1| col 2| col 3|
