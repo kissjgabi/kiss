@@ -45,5 +45,5 @@ The efficiency according to the layout (P<sub>LED</sub>/P<sub>sum</sub>): `0,432
 
 ## Links:
 
-[Simple LED Circuits](https://www.electronicshub.org/simple-led-circuits/)
-[LED lighting from 230V mains](http://skory.gylcomp.hu/kapcs/led230.html)
+[Simple LED Circuits](https://www.electronicshub.org/simple-led-circuits/)  
+[LED lighting from 230V mains](http://skory.gylcomp.hu/kapcs/led230.html)  
