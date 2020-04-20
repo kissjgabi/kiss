@@ -2,4 +2,4 @@
 nickname: facts
 modulname: The Facts Make Science
 ---
-facts are the foundations of scientific thinking
+Observation is experimentation and measurement are the foundations of scientific thinking

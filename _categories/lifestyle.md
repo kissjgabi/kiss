@@ -2,5 +2,5 @@
 nickname: lifestyle
 modulname: Lifestyle
 ---
-Lifestyle
+Keep it stupid simple and your life will be beautiful
 

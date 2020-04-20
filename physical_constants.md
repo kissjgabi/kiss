@@ -12,7 +12,7 @@ color: eee
     <li style="background-color: #{{ constant.color }}; padding: 0 2px 0 5px;">
       <h2>
         <a href="{{ constant.url | relative_url}}">
-            [ {{ constant.symbol }} ] {{ constant.name }}
+            [ {{ constant.symbol }} ] {{ constant.name | capitalize }}
         </a>
       </h2>
       <p>{{ constant.symbol }} = {{ constant.value }} {{ constant.dimension }}</p>
