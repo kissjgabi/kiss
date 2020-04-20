@@ -54,6 +54,11 @@ The efficiency according to the layout (η = P<sub>LED</sub>/P<sub>sum</sub>): `
 [Simple LED Circuits](https://www.electronicshub.org/simple-led-circuits/)  
 [LED lighting from 230V mains](http://skory.gylcomp.hu/kapcs/led230.html)  
 
+___
+><u>Display η :</u>  
+html: `&eta;` = &eta;  
+css / javascript: '/u03B7';  
+linux keyboard: `left-ctrl` + `shift` + `u` and "03B7".  
 
-
+[w3school.com](https://www.w3schools.com/charsets/ref_utf_greek.asp)
 
