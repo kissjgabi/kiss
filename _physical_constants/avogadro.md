@@ -1,5 +1,5 @@
 ---
-name: 'Avogadro constant'
+name: Avogadro constant
 symbol: <em>N<sub>A</sub></em>
 value: 6.02214076×10<sup>23</sup>
 dimension: 1/mol

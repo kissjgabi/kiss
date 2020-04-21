@@ -1,5 +1,5 @@
 ---
-name: 'Speed of light'
+name: speed of light
 symbol: c
 value: 299792458
 dimension: m/s

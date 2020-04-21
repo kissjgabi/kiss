@@ -1,5 +1,5 @@
 ---
-name: 'Boltzmann constant'
+name: Boltzmann constant
 symbol: <em>k<sub>b</sub></em>
 value: 1.380649×10<sup>−23</sup>
 dimension: J/K

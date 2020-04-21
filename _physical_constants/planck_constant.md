@@ -1,5 +1,5 @@
 ---
-name: 'Planck constant'
+name: Planck constant
 symbol: <em>h</em>
 value: 6.62607015×10<sup>−34</sup>
 dimension: J⋅s

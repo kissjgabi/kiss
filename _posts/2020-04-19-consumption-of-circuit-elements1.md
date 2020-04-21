@@ -4,7 +4,7 @@ author: emi
 category: electra
 title: consumption of circuit elements&nbsp;1. basic&nbsp;led&nbsp;circuit
 meta: consumption circuit resistor led
-shortcontent: effeciency of 1 W led is 0,
+shortcontent: effeciency of led
 tag: [electronics]
 image: battery9v-led-resistor.jpg
 subtitle: the basic led circuit

@@ -1,5 +1,5 @@
 ---
-name: 'Loschmidt constant'
+name: Loschmidt constant
 symbol: <em>n<sub>0</sub></em>
 value: 1
 dimension: amagat

@@ -1,5 +1,5 @@
 ---
-name: 'Electron mass'
+name: electron mass
 symbol: <em>m<sub>e</sub></em>
 value: 9.109383701528×10<sup>−31</sup>
 dimension: kg

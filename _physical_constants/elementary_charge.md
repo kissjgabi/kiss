@@ -1,5 +1,5 @@
 ---
-name: 'Elementary electric charge'
+name: elementary electric charge
 symbol: <em>e</em>
 value: 1.602176634×10<sup>−19</sup>
 dimension: C

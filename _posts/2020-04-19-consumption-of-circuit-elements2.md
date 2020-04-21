@@ -4,7 +4,7 @@ author: emi
 category: electra
 title: consumption of circuit elements&nbsp;2. advanced&nbsp;led&nbsp;circuit
 meta: consumption circuit resistor led optimization
-shortcontent: consumption of 1 W led is
+shortcontent: consumption of led
 tag: [electronics]
 image: battery9v-4led-resistor.jpg
 subtitle: the advanced led circuit
