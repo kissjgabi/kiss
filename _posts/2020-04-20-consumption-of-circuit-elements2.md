@@ -9,7 +9,7 @@ tag: [electronics]
 image: battery9v-4led-resistor.jpg
 subtitle: the advanced led circuit
 sitemap:
-    lastmod: 2020-04-19
+    lastmod: 2020-04-22
     priority: 0.75
     changefreq: '1 month'
     exclude: 'no'
@@ -43,7 +43,18 @@ The power dissipated by the resistor (P<sup>2</sup> = V<sup>2</sup> / R): `1,8<s
 
 The efficiency according to the layout (P<sub>LED</sub>/P<sub>sum</sub>): `0,432 / (0,432 + 0,108) = 0,80 = 80,0 %`.  
 
+---
 ## Links:
 
 [Simple LED Circuits](https://www.electronicshub.org/simple-led-circuits/)  
 [LED lighting from 230V mains](http://skory.gylcomp.hu/kapcs/led230.html)  
+
+---
+>Display `η`:  
+html: `&asymp;` => &Eta;, `&eta;` = &Eta;  
+css / javascript: '/u03B7';  
+linux keyboard: `left-ctrl` + `shift` + `u` and "03B7".  
+
+[w3school.com](https://www.w3schools.com/charsets/ref_utf_greek.asp)
+
+

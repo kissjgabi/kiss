@@ -11,5 +11,5 @@ ___
 ><u>Display mu:</u>  
 html: `&mu;` = &mu; `&Mu;` = &Mu;  
 css / javascript: '/u03BC';  
-linux keyboard: `left-ctrl` + `shift` + `u` után "03BC".
+linux keyboard: `left-ctrl` + `shift` + `u` and "03BC".
 

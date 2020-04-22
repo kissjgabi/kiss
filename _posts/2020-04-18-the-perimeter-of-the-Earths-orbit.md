@@ -32,18 +32,21 @@ Earth's orbit is an ellipse with the Earth-Sun barycenter as one focus and a cur
 
 ### a. Take average_speed × solat_year
 
->>p = 29,78 × 365,2421897×24×60×60 = <u>&nbsp;9,3976523216 × 10<sup>8</sup> km&nbsp;</u>.
+>>p = 29,78 × 365,2421897×24×60×60 = <u>&nbsp;9,3976523216 × 10<sup>8</sup> km&nbsp;</u>.  
 
 ### b. As circumference of an ellipse
 
->>p ≈ π × ( a + b ) = 3,141592×(149598261+149577377) = <u>&nbsp;9,3988798746 × 10<sup>8</sup> km&nbsp;</u>.
+>>p ≈ π × ( a + b ) = 3,141592×(149598261+149577377) = <u>&nbsp;9,3988798746 × 10<sup>8</sup> km&nbsp;</u>.  
+
+---
 
 ## Data source: [NASA Earth Fact Sheet](https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html)  
 
-><u>Az </u> `almost_equal_to`<u> megjelenítése:</u>  
+---
+>Display `almost_equal_to`:  
 html: `&asymp;` => &asymp;  
 css / javascript: '/u2248';  
-linux keyboard: `left-ctrl` + `shift` + `u` után "2248".
+linux keyboard: `left-ctrl` + `shift` + `u` and "2248".  
 
-
+[w3school.com](https://www.w3schools.com/charsets/ref_utf_math.asp)
 

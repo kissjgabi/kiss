@@ -11,5 +11,5 @@ ___
 ><u>Display epsilon:</u>  
 html: `&epsilon;` = &epsilon; `&Epsilon;` = &Epsilon;  
 css / javascript: '/u03B5';  
-linux keyboard: `left-ctrl` + `shift` + `u` után "03B5".
+linux keyboard: `left-ctrl` + `shift` + `u` and "03B5".
 

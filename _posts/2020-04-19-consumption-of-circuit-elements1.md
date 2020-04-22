@@ -56,7 +56,7 @@ The efficiency according to the layout (η = P<sub>LED</sub>/P<sub>sum</sub>): `
 
 ___
 ><u>Display η :</u>  
-html: `&eta;` = &eta;  
+html: `&eta;` = &eta;, `&Eta;` = &Eta;  
 css / javascript: '/u03B7';  
 linux keyboard: `left-ctrl` + `shift` + `u` and "03B7".  
 

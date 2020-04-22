@@ -2,21 +2,21 @@
 layout: post
 author: emi
 category: sciention
-title: sun radiations at perihelion
-meta: sun radiation perihelion
-shortcontent: sun radiation
+title: the radiations of black body
+meta: black body radiations
+shortcontent: black body radiations
 tag: [calculations]
-image: helion.jpg
-subtitle: sun white rose
+image: sunmoon.jpg
+subtitle: solar eclipse
 sitemap:
-    lastmod: 2020-04-20
+    lastmod: 2020-04-21
     priority: 0.75
     changefreq: '1 month'
     exclude: 'no'
 ---
-# Sun radiation
+# The black body
 
-The spectrum of the Sun's solar radiation is close to that of a black body with a temperature of about 5,780 K.  
+.  
 
 ## Stefan–Boltzmann law
 
