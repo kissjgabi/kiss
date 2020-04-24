@@ -33,6 +33,7 @@ The presenter receives all events from the view layer.  It processes the request
 
 File: Presenter.java
 
+```java
         package aControl;
 
         import aConsole.OutputConsole;
@@ -56,6 +57,7 @@ File: Presenter.java
                 OUT.writeln("> datas.txt has " + datalines.size() + " lines.");
             }
         }
+```
 
 ## The model: aData package
 
@@ -63,6 +65,7 @@ The model represents the business objects and logic for the data that is being m
 
 File: ReadFromFile.java
 
+```java
         package aData;
 
         import java.io.IOException;
@@ -92,6 +95,7 @@ File: ReadFromFile.java
                 return LINES;
             }
         }
+```
 
 File: datas.txt
 
@@ -114,6 +118,7 @@ This is the user interface layer which is responsible for displaying data to the
 
 File: OutputConsole.java
 
+```java
         package aConsole;
 
         public class OutputConsole {
@@ -129,6 +134,7 @@ File: OutputConsole.java
                 System.out.println(str);
             }
         }
+```
 
 ## Application structure
 
@@ -142,6 +148,7 @@ File: OutputConsole.java
                                                     ┠─ ReadFromFile.java
                                                     ┃
                                                     ┖─ datas.txt
+```
 
 ## Commandline step by step:
 

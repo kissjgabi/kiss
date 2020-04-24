@@ -27,49 +27,63 @@ In general both equals() and “==” operator in Java are used to compare objec
 
 File: Presenter.java
 
->        package aControl;
+>```
+        package aControl;
+```
 
+```java
         import aBasis.DataRecord;
         import aBasis.TableHead;
-
->        import aConsole.OutputConsole;
+```
+  
+>```
+        import aConsole.OutputConsole;
         import aData.ReadFromFile;
         import java.util.ArrayList;
         import java.util.List;
 >
->        public class Presenter {
+        public class Presenter {
 >
->           private static final String DATA_FILE = "/aData/datas.txt";
+            private static final String DATA_FILE = "/aData/datas.txt";
             private static final ReadFromFile READ = new ReadFromFile();
             private static final OutputConsole OUT = new OutputConsole();
             private static List<String> datalines;
+```
 
+```java
              private static TableHead thead;
              private static DataRecord drecord;
+```
 
->            /**
+>```
+             /**
              * @param args the command line arguments
              */
-            public static void main(String[] args) {
+             public static void main(String[] args) {
                 datalines = new ArrayList<>();
                 datalines = READ.dataLines(Presenter.DATA_FILE);
                 OUT.writeln("> datas.txt has " + datalines.size() + " lines.");
+```
 
+```java
               thead = new TableHead(datalines.get(0));
                 OUT.writeln(thead.toString());
                 for (int i = 1; i < datalines.size(); i++) {
                     drecord = new DataRecord(i, datalines.get(i));
                     OUT.writeln(drecord.toString());
                 }
+```
 
->            }
+>```
+            }
         }
-
+```
 
 ## The model: aBasis package
 
 File: TableHead.java
 
+```java
         package aBasis;
 
         import java.util.ArrayList;
@@ -116,9 +130,11 @@ File: TableHead.java
                 return Arrays.toString(THEAD);
             }
         }
+```
 
 File: DataRecord.java
 
+```java
         package aBasis;
 
         import java.util.ArrayList;
@@ -171,7 +187,7 @@ File: DataRecord.java
                 return Arrays.toString(RECORD);
             }
         }
-
+```
 
 ## Application structure
 
