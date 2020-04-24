@@ -6,8 +6,8 @@ title: welcome to java MVP - 02 data preparation
 meta: mvp java data preparation
 shortcontent: mvp java data preparation
 tag: [java, computing]
-image: javaProgLang.jpg
-subtitle: simple sample in Netbeans IDE
+image: java_string.jpg
+subtitle: between == and .equals()
 sitemap:
     lastmod: 2020-04-22
     priority: 0.75
@@ -16,8 +16,12 @@ sitemap:
 ---
 ## Java String
 
-The Java Regex or Regular Expression is an API to define a pattern for searching or manipulating strings.
-It is widely used to define the constraint on strings such as password and email validation.
+### Difference between == and .equals() method in Java
+
+In general both equals() and “==” operator in Java are used to compare objects to check equality but here are some of the differences between the two:
+
+-    Main difference between .equals() method and == operator is that one is method and other is operator.
+-    We can use == operators for reference comparison (address comparison) and .equals() method for content comparison. In simple words, == checks if both objects point to the same memory location whereas .equals() evaluates to the comparison of values in the objects.
 
 ## The presenter: aControl package
 
