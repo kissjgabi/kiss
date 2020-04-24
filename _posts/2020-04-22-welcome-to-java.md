@@ -153,7 +153,19 @@ With your favorite text editor add the files into his directories:
 - datas.txt into aData,
 - Presenter.java into aControl.
 
+Linux terminal commands:
 
+        $ cp -r src bin
+        $ rm -v bin/*/*.java
+
+        $ javac -d bin -sourcepath src src/aControl/Presenter.java
+        $ echo "Main-Class: aControl.Presenter" >> bin/manifest
+        
+        $ cd bin
+        $ jar cfmv readDatasFromFile.jar manifest *
+
+        $ java -jar ReadDatasFromFile.jar
+        > datas.txt has 11 lines.
 
 
 
