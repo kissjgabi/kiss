@@ -130,7 +130,20 @@ File: OutputConsole.java
             }
         }
 
-## File-structure
+## Application structure
+
+        ┠─ samples ┒
+                   ┠─ readDatasFromFile ┒
+                                        ┠─ aConsole ── OutputConsole.java
+                                        ┃
+                                        ┠─ aControl ── Presenter.java
+                                        ┃
+                                        ┖─ aData    ┒ 
+                                                    ┠─ ReadFromFile.java
+                                                    ┃
+                                                    ┖─ datas.txt
+
+## Commandline step by step:
 
 Use the terminal on your computer. And make a root dir for your simple samples.
 
@@ -149,17 +162,21 @@ Make a dirs for the structure of the project
 With your favorite text editor add the files into his directories:  
 
 - OutputConsole.java into aConsole,
+- Presenter.java into aControl.
 - ReadFromFile.java into aData,
 - datas.txt into aData,
-- Presenter.java into aControl.
 
-Linux terminal commands:
+## Compile and run the project:
+
+The JDK must be installed. The path to javac.exe in the environment variables must be set correctly.
+
+### Linux terminal commandline:
 
         $ cp -r src bin
-        $ rm -v bin/*/*.java
+        $ rm -v bin/*/*.javajavac 
 
         $ javac -d bin -sourcepath src src/aControl/Presenter.java
-        $ echo "Main-Class: aControl.Presenter" >> bin/manifest
+        $ echo "Main-Class: aControl.Presenter" > bin/manifest
         
         $ cd bin
         $ jar cfmv readDatasFromFile.jar manifest *
@@ -167,7 +184,22 @@ Linux terminal commands:
         $ java -jar ReadDatasFromFile.jar
         > datas.txt has 11 lines.
 
+### Windows 7 commandline:
 
+(„root>” like „C:\Users\samplaes>” - the directory of java src)
 
+        root>xcopy /E /I src bin
+        root>del /S bin\*.java
+
+        root>javac -d bin -sourcepath src src\aControl\Presenter.java
+        root>echo Main-Class: aControl.Presenter > bin\manifest
+
+        root>cd bin
+        root>jar cfmv readDatasFromFile.jar manifest *
+
+        root>java -jar ReadDatasFromFile.jar
+        > datas.txt has 11 lines.
+
+[w3schools](https://www.w3schools.com/charsets/ref_utf_box.asp)
 
 
