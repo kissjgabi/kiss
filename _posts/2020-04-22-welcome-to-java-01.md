@@ -180,7 +180,7 @@ The JDK must be installed. The path to javac.exe in the environment variables mu
 ### Linux terminal commandline:
 
         $ cp -r src bin
-        $ rm -v bin/*/*.javajavac 
+        $ rm -v bin/*/*.java
 
         $ javac -d bin -sourcepath src src/aControl/Presenter.java
         $ echo "Main-Class: aControl.Presenter" > bin/manifest
@@ -188,7 +188,7 @@ The JDK must be installed. The path to javac.exe in the environment variables mu
         $ cd bin
         $ jar cfmv readDatasFromFile.jar manifest *
 
-        $ java -jar ReadDatasFromFile.jar
+        $ java -jar readDatasFromFile.jar
         > datas.txt has 11 lines.
 
 ### Windows 7 commandline:
@@ -204,7 +204,7 @@ The JDK must be installed. The path to javac.exe in the environment variables mu
         root>cd bin
         root>jar cfmv readDatasFromFile.jar manifest *
 
-        root>java -jar ReadDatasFromFile.jar
+        root>java -jar readDatasFromFile.jar
         > datas.txt has 11 lines.
 
 [w3schools](https://www.w3schools.com/charsets/ref_utf_box.asp)
