@@ -152,16 +152,18 @@ File: OutputConsole.java
 
 ## Commandline step by step:
 
-Use the terminal on your computer. And make a root dir for your simple samples.
+Use the terminal on your computer. And make a root dir for your simple samples.  
 
         mkdir samples
         cd samples
 
-Make a dir for the first sample „readDatasFromFile”
+Make a dir for the first sample „readDatasFromFile”  
+
         mkdir readDatasFromFile
         cd readDatasFromFile
 
-Make a dirs for the structure of the project
+Make a dirs for the structure of the project  
+
         mkdir aControl
         mkdir aData
         mkdir aConsole
