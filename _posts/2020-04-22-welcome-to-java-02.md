@@ -210,10 +210,12 @@ File: DataRecord.java
 
 ## Commandline step by step:
 
-Change to the dir of „readDatasFromFile”
+Change to the dir of „readDatasFromFile”  
+
         cd readDatasFromFile
 
-Make a dir for the new package of the project
+Make a dir for the new package of the project  
+
         mkdir aBasis
 
 With your favorite text editor add the files into his directory:  
