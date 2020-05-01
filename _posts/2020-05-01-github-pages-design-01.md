@@ -196,6 +196,7 @@ view:
 <h1 class="myh1">Headline sample</h1>
 
 Links:  
+[Borders](https://www.w3schools.com/css/css_border.asp)  
 [Colors](https://www.w3schools.com/colors/colors_names.asp)  
 [Text](https://www.w3schools.com/csS/css_text.asp)  
 [Font weight](https://www.w3schools.com/csSref/pr_font_weight.asp)  
@@ -203,4 +204,5 @@ Links:
 [Font variant](https://www.w3schools.com/cssref/pr_font_font-variant.asp)  
 [Text transform](https://www.w3schools.com/cssref/pr_text_text-transform.asp)  
 [Text decoration](https://www.w3schools.com/cssref/css3_pr_text-decoration-line.asp)  
+
 
