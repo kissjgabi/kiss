@@ -158,8 +158,12 @@ source:
         color: darkred;
         background-color: chocolate;
         letter-spacing: -0.075em;
+        font-style: oblique;
         font-weight: bold;
-        text-shadow: 2px 2px 5px white, -2px -2px 5px white;
+        font-variant: small-caps;
+        text-transform: capitalize;
+        text-decoration-line: overline underline;
+        text-shadow: 2px 2px 10px white, -2px -2px 10px white;
         border: 10px ridge darkgoldenrod;
         border-radius: 10px;
     }
@@ -178,8 +182,11 @@ view:
         color: darkred;
         background-color: chocolate;
         letter-spacing: -0.075em;
-        font-style: italic;
+        font-style: oblique;
         font-weight: bold;
+        font-variant: small-caps;
+        text-transform: capitalize;
+        text-decoration-line: overline underline;
         text-shadow: 2px 2px 10px white, -2px -2px 10px white;
         border: 10px ridge darkgoldenrod;
         border-radius: 10px;
@@ -188,6 +195,12 @@ view:
 
 <h1 class="myh1">Headline sample</h1>
 
+Links:  
 [Colors](https://www.w3schools.com/colors/colors_names.asp)  
-[Heading](https://www.w3schools.com/csS/css_text.asp)
+[Text](https://www.w3schools.com/csS/css_text.asp)  
+[Font weight](https://www.w3schools.com/csSref/pr_font_weight.asp)  
+[Font style](https://www.w3schools.com/cssref/pr_font_font-style.asp)  
+[Font variant](https://www.w3schools.com/cssref/pr_font_font-variant.asp)  
+[Text transform](https://www.w3schools.com/cssref/pr_text_text-transform.asp)  
+[Text decoration](https://www.w3schools.com/cssref/css3_pr_text-decoration-line.asp)  
 
