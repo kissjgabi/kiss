@@ -60,8 +60,8 @@
 	        var howManySnowflakes = 40;
             for(var i=0; i<howManySnowflakes; i++) {
                 ii = Math.floor(Math.random()*35) +1;
-                str = "00" + ii;
-                var str = str.substring(str.length - 2);
+                var str = "00" + ii;
+                str = str.substring(str.length - 2);
                 var img = new Image();
                 img.src = "/kiss/assets/images/snow" + str + ".png";
                 items[i] = [Math.floor(Math.random()*(b6canvas01.width-2*img.width)) + img.width/2,
