@@ -128,3 +128,5 @@ defaults:
       layout: "default"
 
 
+
+theme: jekyll-theme-cayman
